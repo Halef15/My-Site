@@ -196,3 +196,32 @@ a:hover {
 .education .text .button:hover {
     background-color: #555;
 }
+/* Estilos para telas menores (celulares) */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 60px 20px; /* Reduz o padding do cabeçalho */
+    }
+
+    .name-container h1 {
+        font-size: 60px; /* Reduz o tamanho do título */
+    }
+
+    .sidebar {
+        width: 100px; /* Reduz a largura da barra lateral */
+        font-size: 20px; /* Reduz o tamanho da fonte na barra lateral */
+    }
+
+    .text {
+        padding: 20px; /* Reduz o padding do conteúdo principal */
+        margin: 0 10px; /* Reduz as margens laterais do conteúdo principal */
+        margin-top: 200px; /* Ajusta a margem superior do conteúdo principal */
+    }
+
+    .intro,
+    .experience,
+    .education,
+    .portfolio,
+    .contact {
+        padding: 0 20px; /* Reduz o padding das seções */
+    }
+}
